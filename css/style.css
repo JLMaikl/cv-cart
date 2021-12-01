@@ -251,14 +251,16 @@ body {
       right: 15px;
    }
 
-   @media (max-width: 320px) {
+   @media (max-width: 360px) {
       .container {
-         max-width: 300px;
+         max-width: 320px;
          display: flex;
          flex-direction: column;
          justify-content: space-between;
          justify-content: center;
          align-items: center;
+         margin: 0;
+         padding: 0;
       }
 
       .info-cv {
