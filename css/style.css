@@ -251,6 +251,61 @@ body {
       right: 15px;
    }
 
+   @media (max-width: 320px) {
+      .container {
+         max-width: 300px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .info-cv {
+         max-width: 300px;
+         padding-left: 5px;
+      }
+
+      .tech-line-grey {
+         width: 250px;
+         height: 7px;
+         background: rgba(255, 255, 255, 0.3);
+         border-radius: 10px;
+         margin-bottom: 10px;
+      }
+
+      .tech-internet-line-white {
+         width: 125px;
+      }
+
+      .tech-social-line-white {
+         width: 150px;
+      }
+
+      .tech-shopping-line-white {
+         width: 75px;
+      }
+
+      .text-cv {
+         width: 250px;
+      }
+
+      .avatar-cv {
+         width: 250px;
+      }
+
+      .avatar-cv img {
+         width: 250px;
+         height: 408px;
+      }
+
+      .avatar-cv p {
+         font-size: 10px;
+         line-height: 1.4;
+         left: 25px;
+         right: 15px;
+      }
+
 
 
 
