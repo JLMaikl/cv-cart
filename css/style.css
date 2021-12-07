@@ -108,7 +108,7 @@ body {
    margin-bottom: 1px;
 }
 .tech-line-grey {
-   width: 80%px;
+   width: 80%;
    height: 7px;
    background: rgba(255, 255, 255, 0.3);
    border-radius: 10px;
@@ -247,7 +247,8 @@ body {
    }
    .info-row {
      display: flex;
-     justify-content: row;
+     flex-direction: row;
+     justify-content: center;
      align-items: center;
      margin-bottom: 60px;
    }
