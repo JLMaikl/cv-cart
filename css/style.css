@@ -12,7 +12,7 @@ body {
    font-family: 'Inter', sans-serif;
    color: #fff;
    font-size: 14px;
-   background-color: #000;
+   background-color:#E5E5E5;
    margin: auto;
 }
 .container {
@@ -20,6 +20,7 @@ body {
    justify-content: space-around;
    align-items: center;
    background: url(../img/broken_noise_@2X.png);
+   background-color: #000;
    width: 1680px;   
 }
 .info-cv {
@@ -34,12 +35,23 @@ body {
 .info-cv {
    display: flex;
    flex-direction: column;
-   margin-top: 40px;
+   justify-content: center;
+   align-items: center;
+   
 }
 .name-cv {
-   margin-bottom: 20px;
+   display: flex;   
+   justify-content: center;
+   align-items: center;
+   
 }
-.name-cv-title {
+.name-cv-title { 
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   margin: 0;
+   margin-left: 42px;
+   margin-bottom: 65px;
    font-style: normal;
    font-weight: 600;
    font-size: 75px;    
@@ -72,13 +84,16 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin-bottom: 35px;
+   /* margin-bottom: 35px; */
 }
 .info-row-two {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   margin-bottom: 35px;
+   /* margin-bottom: 35px; */
+}
+.info-row-three {
+   width: 80%;
 }
 
 .tech-title {
@@ -156,12 +171,17 @@ body {
 }
 .avatar-cv {
    display: flex;
-   position: relative;   
+   position: relative;
+   justify-content: center;
+   align-items: center;
+
 }
 .avatar-cv-image {
-   width: 100%;
-   height: 100%;   
+   width: 90%;
+   height: 90%;   
    border-radius: 7px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 .avatar-cv-slogan {
    position: absolute;   
@@ -171,7 +191,7 @@ body {
    font-size: 30px;
    line-height: 35px;
    left: 50px;
-   right: 50px;   
+   right: 60px;   
 }
 
 @media (max-width: 1440px) {
@@ -187,15 +207,12 @@ body {
    }
    .avatar-cv {
       max-width: 100%;
-   }   
+   }  
+   .info-row-three {
+      width: 100%;
+   } 
    .tech-line-grey {
-      width: 80%;
-      height: 7px;
-      background: rgba(255, 255, 255, 0.3);
-      border-radius: 10px;
-      margin-right: 0;
-      padding-right: 0;
-      margin-bottom: 10px;
+      width: 100%;      
    }   
    .avatar-cv-image {
       margin-top: 10%;
@@ -214,7 +231,7 @@ body {
 
 @media (max-width: 1260px) {
    .container {
-      max-width: 1100px;
+      max-width: 1200px;
       display: flex;
       flex-direction: column;      
       justify-content: center;
@@ -228,6 +245,12 @@ body {
       justify-content: center;
       align-items: center;
    }
+   .info-row {
+     display: flex;
+     justify-content: row;
+     align-items: center;
+     margin-bottom: 60px;
+   }
    .info-row-one {
       display: flex;
       justify-content: center;
@@ -238,15 +261,14 @@ body {
       justify-content: center;
    }
    .info-row-three {
-      display: block;
-      margin-left: 20%;
+      width: 85%;      
    }   
    .text-cv {
-      width: 65%;
+      width: 85%;
       margin-top: 80px;      
    }   
    .tech-line-grey {
-      width: 80%;
+      width: 100%;
    }
    .avatar-cv {
       width: 50%;
@@ -258,14 +280,64 @@ body {
 
 /* +++++++++++++++++++++++++++++++ */
 
-@media (max-width: 650px) {
+@media (max-width: 990px) {
    .container {
       max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       justify-content: center;
-      align-items: center;      
+      align-items: center;
+   }
+
+   .info-row-one {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .info-row-two {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .name-cv-title {
+      font-size: 2em;
+   }
+
+   .tech-line-grey {
+      width: 80%;
+   }
+
+   .avatar-cv {
+      max-width: 100%;
+   }
+
+   .avatar-cv-image {
+      width: 100%;
+      height: 100%;
+   }
+   .avatar-cv-slogan {
+      font-size: 1em;      
+   }
+}
+
+
+@media (max-width: 520px) {
+   .container {
+      max-width: 100%;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      justify-content: center;
+      align-items: center;       */
+   }
+   .info-row{
+      display: flex;
+      flex-direction: column;
    }
    .info-row-one {
       display: flex;
@@ -278,6 +350,9 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
+   .info-block {
+      margin-bottom: 20px;
    }
    .name-cv-title {
       font-size: 2em;
@@ -293,11 +368,9 @@ body {
       height: 100%;
    }
    .avatar-cv-slogan {
-      font-size: 5px;      
-      left: 5%;
-      right: 5%;
-      bottom: 20px;
+      font-size: 0.5em;
    }
+   
 }
 
 
