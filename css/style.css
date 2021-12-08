@@ -20,8 +20,8 @@ body {
    align-items: center;
    flex-direction: row;
    background-image: url(../img/Persona.png);   
-   /* background-color: #000; */
-   width: 1680px;   
+   width: 1680px;
+   
 }
 .info-cv {
    width: 30%;   
@@ -373,7 +373,7 @@ body {
       font-size: 3em;
       line-height: 125%;
       margin-top: 50px;
-      margin-left: 60px;
+      margin-left: 15%;
       margin-bottom: 45px;
    }
    .tech-line-grey {
@@ -389,8 +389,7 @@ body {
    .avatar-cv-slogan {
       position: static;
       width: 100%;     
-      font-size: 1em;
-      margin: 0;
+      font-size: 1em;      
       margin-bottom: 25px;
    }
    
