@@ -259,6 +259,10 @@ body {
       justify-content: center;
       align-items: center;
    }
+   .name-cv-title {
+      margin-top: 50px;
+      font-size: 5em;
+   }
    .info-row {
      display: flex;
      flex-direction: row;
@@ -323,19 +327,16 @@ body {
    .info-block {
       width: 80%;
    }
-
    .name-cv-title {
-      font-size: 2em;
+      font-size: 3em;
+      margin-top: 50px;
    }
-
    .tech-line-grey {
       width: 80%;
    }
-
    .avatar-cv {
       max-width: 100%;
    }
-
    .avatar-cv-image {
       width: 100%;
       height: 100%;
@@ -346,7 +347,7 @@ body {
 }
 
 
-@media (max-width: 330px) {
+@media (max-width: 370px) {
    .container {
       max-width: 100%;           */
    }
@@ -371,6 +372,7 @@ body {
    }
    .name-cv-title {
       font-size: 2em;
+      margin-top: 50px;
    }
    .tech-line-grey {
       width: 80%;
