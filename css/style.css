@@ -6,7 +6,6 @@
 }
 
 html {
-   border: 2px solid orange;
    width: 100%;
    height: 100%;
 }
@@ -19,7 +18,6 @@ body {
    font-size: 14px;
    background-image: url(../img/Persona.png);
    margin: auto;
-   border: 2px solid red;   
    width: 100%;
    height: 100%;
 }
@@ -30,8 +28,7 @@ body {
    flex-direction: row;
    background-image: url(../img/Persona.png);   
    width: 1680px;
-   border: 2px solid green;
-   
+     
 }
 .info-cv {
    width: 30%;   
@@ -217,15 +214,13 @@ body {
 
 @media (max-width: 1440px) {
    html {
-      border: 2px solid orange;
       max-width: 100%;
-      /* height: auto; */
+      
    }   
    .body {
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 2px solid red;
       width: 100%;
       height: 100%;
    }
@@ -265,7 +260,6 @@ body {
 
 @media (max-width: 1260px) {
    html {
-      border: 2px solid orange;
       max-width: 100%;
       height: auto;
    }
@@ -347,13 +341,16 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 50%;
+      margin-left: 5%;
+      
    }
-
    .info-row-two {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 50%;
    }
    .info-block {
       width: 80%;
@@ -397,6 +394,7 @@ body {
       align-items: center;
       align-items: center;
       width: 100%;
+      margin-left: 0;
    }
    .info-row-two {
       display: flex;
@@ -412,7 +410,7 @@ body {
       font-size: 3em;
       line-height: 125%;
       margin-top: 50px;
-      margin-left: 15%;
+      margin-left: 6%;
       margin-bottom: 45px;
    }
    .tech-line-grey {
